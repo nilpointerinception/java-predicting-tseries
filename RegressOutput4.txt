@@ -1,0 +1,66 @@
+This file, RegressOutput.txt, was created at 6:51:00 AM on Apr 21, 2014
+ 
+Unweighted Least Squares Minimisation
+Linear Regression with intercept
+y = c[0] + c[1]*x1 + c[2]*x2 +c[3]*x3 + . . .
+
+             	Best         	Error        	Coefficient of	t-value      	p-value
+             	Estimate     	             	variation (%)	t            	P > |t|
+c[0]         	196.0799     	14.177       	7.2302       	13.8308      	5.0902E-12
+c[1]         	-0.0768      	0.0073       	9.4779       	-10.5508     	7.5149E-10
+
+x1           	y(expl)      	y(calc)      	weight       	residual     	residual
+             	             	             	             	(unweighted) 	(weighted)
+1896.0       	54.2         	50.4859      	1.0          	-3.7141      	-3.7141
+1900.0       	49.4         	50.1788      	1.0          	0.7788       	0.7788
+1904.0       	49.2         	49.8716      	1.0          	0.6716       	0.6716
+1908.0       	50.0         	49.5645      	1.0          	-0.4355      	-0.4355
+1912.0       	48.2         	49.2573      	1.0          	1.0573       	1.0573
+1920.0       	49.6         	48.643       	1.0          	-0.957       	-0.957
+1924.0       	47.6         	48.3358      	1.0          	0.7358       	0.7358
+1928.0       	47.8         	48.0287      	1.0          	0.2287       	0.2287
+1932.0       	46.2         	47.7215      	1.0          	1.5215       	1.5215
+1936.0       	46.5         	47.4143      	1.0          	0.9143       	0.9143
+1948.0       	46.2         	46.4929      	1.0          	0.2929       	0.2929
+1952.0       	45.9         	46.1857      	1.0          	0.2857       	0.2857
+1956.0       	46.7         	45.8785      	1.0          	-0.8215      	-0.8215
+1960.0       	44.9         	45.5714      	1.0          	0.6714       	0.6714
+1964.0       	45.1         	45.2642      	1.0          	0.1642       	0.1642
+1968.0       	43.8         	44.9571      	1.0          	1.1571       	1.1571
+1972.0       	44.66        	44.6499      	1.0          	-0.0101      	-0.0101
+1976.0       	44.26        	44.3427      	1.0          	0.0827       	0.0827
+1980.0       	44.6         	44.0356      	1.0          	-0.5644      	-0.5644
+1984.0       	44.27        	43.7284      	1.0          	-0.5416      	-0.5416
+1988.0       	43.87        	43.4213      	1.0          	-0.4488      	-0.4488
+1992.0       	43.5         	43.1141      	1.0          	-0.3859      	-0.3859
+1996.0       	43.49        	42.8069      	1.0          	-0.6831      	-0.6831
+
+Sum of squares 24.9144
+ 
+Correlation: x - y data
+Linear Correlation Coefficient (R)	-0.9172
+Linear Correlation Coefficient Probability	3.7574E-10
+ 
+Correlation: y(experimental) - y(calculated)
+Linear Correlation Coefficient	0.9172
+Linear Correlation Coefficient Probability	3.7574E-10
+
+Correlation coefficients
+             	c[0]         	c[1]         	
+c[0]         	1.0          	-0.9999      	
+c[1]         	-0.9999      	1.0          	
+ 
+Degrees of freedom	21
+Number of data points	23
+Number of estimated paramaters	2
+
+
+Coefficient of determination,   =                   0.8413
+Adjusted Coefficient of determination,    =         0.8254
+Coefficient of determination, F-ratio =             53.0096
+Coefficient of determination, F-ratio probability = 4.8399E-7
+Total (weighted) sum of squares  =                  156.9843
+Regression (weighted) sum of squares  =             132.0699
+Error (weighted) sum of squares  =                  24.9144
+
+End of file
